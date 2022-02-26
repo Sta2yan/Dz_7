@@ -15,7 +15,8 @@ namespace Dz_7
             Console.Write("Введите сколько раз нужно вывести текст: ");
             int countTextOutput = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < countTextOutput; i++) Console.WriteLine((i + 1) + ". " + userText);
+            for (int i = 0; i < countTextOutput; i++)
+                Console.WriteLine((i + 1) + ". " + userText);
         }
     }
 }
